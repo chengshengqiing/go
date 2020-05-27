@@ -1,0 +1,12 @@
+server:
+  port: 9001
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.5.162:3306/test?userUnicode=true&characterEncoding=utf-8
+    username: root   #数据库用户
+    password: Hailin@!1test  #数据库密码
+  jpa:
+    database: mysql
+    show‐sql: true
+    generate‐ddl: true
