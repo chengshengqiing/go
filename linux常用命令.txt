@@ -1,9 +1,0 @@
-1.linux部署启动jar包项目:  nohup java -Dserver.port=9999 -jar 项目.jar
-2.查看启动的项目: ps -ef|grep  java
-
-command + ~  切换项目
-
- 创建文件touch  xxx.txt
-
-开启 nacos 命令 : sh startup.sh -m standalone
-关闭 nacos 命令 :  sh shutdown.sh -m standalone
